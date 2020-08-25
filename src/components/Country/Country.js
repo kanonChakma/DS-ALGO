@@ -1,7 +1,7 @@
 import React from "react";
 import "./Country.css";
 const Country = (props) => {
-  const { name, capital, flag, area } = props.country;
+  const { name, capital, flag, area, population } = props.country;
   return (
     <div className="country">
       <img src={flag} alt="" />
@@ -18,7 +18,13 @@ const Country = (props) => {
           <small>Area:</small>
           {area}
         </p>
+        <p>
+          <small>Population:{population}</small>
+        </p>
       </div>
+      <button onClick={() => props.handleCountry(props.country)}>
+        Add Countries
+      </button>
     </div>
   );
 };
