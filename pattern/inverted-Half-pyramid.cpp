@@ -8,9 +8,9 @@ int main(){
     {
         for (int j = i; j < row; j++)
         {
-            cout<<"*"<<" ";
+           cout<<"*"<<" ";
         }
-        cout<<endl;
+           cout<<endl;
     }
 
     return 0;
