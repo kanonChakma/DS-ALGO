@@ -24,7 +24,6 @@ void firstSolution(int row, int column){
             cout<<endl;
         }
      }
-
 }
 
 void SecondSolution(int row, int column){
