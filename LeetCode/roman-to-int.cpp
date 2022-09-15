@@ -209,6 +209,6 @@ int fourthSolution(string s1)
 int main(){
     string s1;
     cin>>s1;
-    cout<<findInt(s1);
+    cout<<fourthSolution(s1);
     return 0;
 }

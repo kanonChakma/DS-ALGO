@@ -1,0 +1,4 @@
+ALGORITHM
+Any word or any sequence or letters that start form the beginnig are prefix; ex: AL, ALG, ALGO
+
+Any sequence of letters that are towards. the end are called as a suffix; ex: HM, THM, ITHM
