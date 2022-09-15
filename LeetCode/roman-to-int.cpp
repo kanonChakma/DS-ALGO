@@ -43,6 +43,7 @@ int firstSolution(string s1)
         }
     }
  }
+ 
  return count;
 }
 
