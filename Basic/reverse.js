@@ -14,4 +14,4 @@ function Reverse2(str){
  return str.splict('').Reverse().join('');   
 }
 
-const reverse3 = str => [...str].reverse.join();
+const reverse3 = str => [...str].reverse().join('');
