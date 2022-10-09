@@ -3,7 +3,8 @@
 function sortArray(arr1, arr2) {
     
     let i=0; j=0;
-    if(arr1.length<1){
+
+    if(arr1.length<1) {
         return arr2;
     }
     
@@ -28,13 +29,15 @@ function sortArray(arr1, arr2) {
           secondItem = arr2[j];
        }    
     }
+
     return sortedArray;
 }
 
 function sortArray2(arr1, arr2) {
     
     let i=0; j=0;
-    if(arr1.length<1){
+
+    if(arr1.length<1) {
         return arr2;
     }
     
