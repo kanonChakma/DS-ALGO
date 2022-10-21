@@ -1,4 +1,4 @@
-class LinkedList {
+class LinkedList {    
     constructor(value) {
         this.head = {
             value: value,
@@ -7,6 +7,7 @@ class LinkedList {
         this.tail = this.head;
         this.length = 1;
     }
+
     append(value) {
       const newNode = {
           value: value,
@@ -22,4 +23,5 @@ const newLinkedList = new LinkedList(10);
 
 newLinkedList.append(5);
 newLinkedList.append(16);
+
 console.log(newLinkedList);
