@@ -19,4 +19,5 @@ const findDuplicate1 = (arr) => {
        }
    });
 }
+
 findDuplicate1(arr);
