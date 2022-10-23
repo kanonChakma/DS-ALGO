@@ -15,6 +15,7 @@ class LinkedList {
             value: value,
             next: null
         }
+
        newNode.next = this.head;
        this.head = newNode;
        this.length++;
@@ -22,6 +23,8 @@ class LinkedList {
 }
  
 const newLink =  new LinkedList(20);
+
 newLink.prepand(30);
 newLink.prepand(40);
 console.log(newLink);
+

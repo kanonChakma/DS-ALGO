@@ -23,6 +23,7 @@ class LinkedList {
     }
 
     prepand(value) {
+
         const newNode = new Node(value);
         newNode.next = this.head;
         this.head = newNode;
@@ -77,6 +78,7 @@ newLinkList.append(80);
 newLinkList.prepand(40);
 newLinkList.prepand(20);
 newLinkList.prepand(10);
+
 newLinkList.insert(4, 30);
 console.log(newLinkList.allElement());
 newLinkList.delete(3);

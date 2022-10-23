@@ -1,3 +1,4 @@
+https://careers.scandiweb.com/jobs/1352462-junior-trainee-react-developer-to-become-full-stack-developer
 class Node {
     constructor(value) {
         this.value = value;
@@ -31,10 +32,9 @@ class LinkedList {
 
   reverse() {       
     let currentNode = this.head;
-    while(currentNode !== null) {
-      
-    }
-
+     while(currentNode !== null) {
+       
+     }
   }
 
   printAll() {
