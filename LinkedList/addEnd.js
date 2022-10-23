@@ -4,6 +4,7 @@ class LinkedList {
             value: value,
             next: null
         }
+        
         this.tail = this.head;
         this.length = 1;
     }
