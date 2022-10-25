@@ -57,6 +57,7 @@ class linkList {
 }
 
 const newLinkedList =  new linkList(10);
+
 newLinkedList.prepand(9);
 newLinkedList.prepand(8);
 newLinkedList.prepand(7);
